@@ -15,6 +15,7 @@
             body {
                 font-family: Arial;
                 background-color: aliceblue;
+                padding: 40px 0;
             }
             h2 {
                 font-size: 28px;
@@ -28,22 +29,55 @@
                 color: gray;
             }
 
-            section {
-                padding: 10px 60px 20px 60px;
-            }
-
+            section,
             header {
                 padding: 10px 60px 20px 60px;
+                background-color: white;
+                width: 960px;
+                margin: 0 auto;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+            }
+
+            header ul {
+                list-style: none;
+            }
+
+            header li {
+                margin-bottom: 15px;
+            }
+
+            header address img {
+                width: 16px;
+                height: 16px;
+                background-color: cornflowerblue;
+                margin-right: 10px;
+                padding: 8px;
+                vertical-align: middle;
+                border-radius: 50%;
             }
 
         </style>
     </head>
     <body>
     <header>
-        <img src="ja.jpg">
         <section>
         <h1>Radosław Bielski</h1>
         <span>Frontend Developer</span>
+            <div>
+                <img src="ja.jpg">
+        <address>
+            <ul>
+                <li><img src="images/phone.png"/><b>Phone number:</b> +48 724 245 853</li>
+                <li><img src="images/mail.png"/><b>Email:</b> bielskiradek@gmail.com</li>
+                <li><img src="images/birthday-cake.png"/><b>Birth date:</b> 12-07-1998</li>
+                <li><img src="images/pin.png"/><b>City:</b> Bolszewo</li>
+            </ul>
+        </address>
+            </div>
     </header>
     <main>
         <section>
